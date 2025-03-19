@@ -11,7 +11,7 @@ datasource db {
 model Technology {
   id          Int       @id @default(autoincrement())
   name        String    @unique
-  description String?
+  description String
   image       String
   featured    Boolean   @default(false)
   createdAt   DateTime  @default(now())

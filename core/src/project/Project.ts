@@ -1,6 +1,6 @@
-import Technology from '../technology/Technology';
-import { Level } from './Level';
-import { Type } from './Type';
+import Technology from "../technology/Technology";
+import { Level } from "./Level";
+import { Type } from "./Type";
 
 export default interface Project {
   id: number;

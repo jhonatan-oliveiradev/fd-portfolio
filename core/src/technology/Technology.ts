@@ -1,4 +1,4 @@
-import Project from '../project/Project';
+import Project from "../project/Project";
 
 export default interface Technology {
   id: number;
